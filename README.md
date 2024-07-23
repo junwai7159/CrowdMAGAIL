@@ -1,4 +1,4 @@
-# CrowdMAGAIL: Virtual Crowd Simulation based on Multi-Agent Generative Adversarial Imitation Learning
+# CrowdMAGAIL: Virtual Crowd Simulation based on Multi-Agent Reinforcement Learning
 ## About this project
 Crowd simulation holds significant practical implications in fields such as urban planning and entertainment. Simulating realistic virtual crowds is a challenging yet crucial task for various applications. Microscopic crowd simulation, particularly modeling the obstacle avoidance behavior of pedestrians is one of the most complex aspects in crowd simulation. The process which pedestrians to avoid obstacles, both static and dynamic is pivotal for achieving realistic crowd simulation. Inspired by the recent advances in deep multi-agent reinforcement learning, in this paper we propose Crowd-MAGAIL, a data-driven microscopic crowd simulation model based on the MAPPO backbone algorithm. 
 
