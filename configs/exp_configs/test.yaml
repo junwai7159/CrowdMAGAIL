@@ -1,0 +1,27 @@
+MODEL:
+  'TECRL'
+
+NUM_PED:
+  - 3
+  - 10
+
+NUM_OBS: 
+  10
+
+MAX_EPISODES:
+  10000
+
+SCENARIO:
+  - 'RANDOM'
+  - 'PREDEFINED'
+
+RW_SMOOTH_V:
+  - -6.0
+  - -4.0
+  - -2.0
+
+RW_SMOOTH_W:
+- -3.0
+- -1.0
+- -0.5
+

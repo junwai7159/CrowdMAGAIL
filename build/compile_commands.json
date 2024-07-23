@@ -1,0 +1,44 @@
+[
+{
+  "directory": "C:/Users/User/OneDrive - sjtu.edu.cn/SJTU/FYP/Prototype/TECRL/TECRL/build/src",
+  "command": "C:\\MinGW\\bin\\g++.exe -DNOMINMAX  -g -o CMakeFiles\\RVO.dir\\Agent.cpp.obj -c \"C:\\Users\\User\\OneDrive - sjtu.edu.cn\\SJTU\\FYP\\Prototype\\TECRL\\TECRL\\model\\Python-RVO2\\src\\Agent.cpp\"",
+  "file": "C:/Users/User/OneDrive - sjtu.edu.cn/SJTU/FYP/Prototype/TECRL/TECRL/model/Python-RVO2/src/Agent.cpp",
+  "output": "src/CMakeFiles/RVO.dir/Agent.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/OneDrive - sjtu.edu.cn/SJTU/FYP/Prototype/TECRL/TECRL/build/src",
+  "command": "C:\\MinGW\\bin\\g++.exe -DNOMINMAX  -g -o CMakeFiles\\RVO.dir\\KdTree.cpp.obj -c \"C:\\Users\\User\\OneDrive - sjtu.edu.cn\\SJTU\\FYP\\Prototype\\TECRL\\TECRL\\model\\Python-RVO2\\src\\KdTree.cpp\"",
+  "file": "C:/Users/User/OneDrive - sjtu.edu.cn/SJTU/FYP/Prototype/TECRL/TECRL/model/Python-RVO2/src/KdTree.cpp",
+  "output": "src/CMakeFiles/RVO.dir/KdTree.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/OneDrive - sjtu.edu.cn/SJTU/FYP/Prototype/TECRL/TECRL/build/src",
+  "command": "C:\\MinGW\\bin\\g++.exe -DNOMINMAX  -g -o CMakeFiles\\RVO.dir\\Obstacle.cpp.obj -c \"C:\\Users\\User\\OneDrive - sjtu.edu.cn\\SJTU\\FYP\\Prototype\\TECRL\\TECRL\\model\\Python-RVO2\\src\\Obstacle.cpp\"",
+  "file": "C:/Users/User/OneDrive - sjtu.edu.cn/SJTU/FYP/Prototype/TECRL/TECRL/model/Python-RVO2/src/Obstacle.cpp",
+  "output": "src/CMakeFiles/RVO.dir/Obstacle.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/OneDrive - sjtu.edu.cn/SJTU/FYP/Prototype/TECRL/TECRL/build/src",
+  "command": "C:\\MinGW\\bin\\g++.exe -DNOMINMAX  -g -o CMakeFiles\\RVO.dir\\RVOSimulator.cpp.obj -c \"C:\\Users\\User\\OneDrive - sjtu.edu.cn\\SJTU\\FYP\\Prototype\\TECRL\\TECRL\\model\\Python-RVO2\\src\\RVOSimulator.cpp\"",
+  "file": "C:/Users/User/OneDrive - sjtu.edu.cn/SJTU/FYP/Prototype/TECRL/TECRL/model/Python-RVO2/src/RVOSimulator.cpp",
+  "output": "src/CMakeFiles/RVO.dir/RVOSimulator.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/OneDrive - sjtu.edu.cn/SJTU/FYP/Prototype/TECRL/TECRL/build/examples",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/Blocks.dir/includes_CXX.rsp -g -o CMakeFiles\\Blocks.dir\\Blocks.cpp.obj -c \"C:\\Users\\User\\OneDrive - sjtu.edu.cn\\SJTU\\FYP\\Prototype\\TECRL\\TECRL\\model\\Python-RVO2\\examples\\Blocks.cpp\"",
+  "file": "C:/Users/User/OneDrive - sjtu.edu.cn/SJTU/FYP/Prototype/TECRL/TECRL/model/Python-RVO2/examples/Blocks.cpp",
+  "output": "examples/CMakeFiles/Blocks.dir/Blocks.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/OneDrive - sjtu.edu.cn/SJTU/FYP/Prototype/TECRL/TECRL/build/examples",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/Circle.dir/includes_CXX.rsp -g -o CMakeFiles\\Circle.dir\\Circle.cpp.obj -c \"C:\\Users\\User\\OneDrive - sjtu.edu.cn\\SJTU\\FYP\\Prototype\\TECRL\\TECRL\\model\\Python-RVO2\\examples\\Circle.cpp\"",
+  "file": "C:/Users/User/OneDrive - sjtu.edu.cn/SJTU/FYP/Prototype/TECRL/TECRL/model/Python-RVO2/examples/Circle.cpp",
+  "output": "examples/CMakeFiles/Circle.dir/Circle.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/OneDrive - sjtu.edu.cn/SJTU/FYP/Prototype/TECRL/TECRL/build/examples",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/Roadmap.dir/includes_CXX.rsp -g -o CMakeFiles\\Roadmap.dir\\Roadmap.cpp.obj -c \"C:\\Users\\User\\OneDrive - sjtu.edu.cn\\SJTU\\FYP\\Prototype\\TECRL\\TECRL\\model\\Python-RVO2\\examples\\Roadmap.cpp\"",
+  "file": "C:/Users/User/OneDrive - sjtu.edu.cn/SJTU/FYP/Prototype/TECRL/TECRL/model/Python-RVO2/examples/Roadmap.cpp",
+  "output": "examples/CMakeFiles/Roadmap.dir/Roadmap.cpp.obj"
+}
+]

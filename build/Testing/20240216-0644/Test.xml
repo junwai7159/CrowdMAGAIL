@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-mingw32-make"
+	BuildStamp="20240216-0644-Experimental"
+	Name="LAPTOP-QURU20H1"
+	Generator="ctest-3.28.3"
+	CompilerName="C:/MinGW/bin/g++.exe"
+	CompilerVersion="6.3.0"
+	OSName="Windows"
+	Hostname="LAPTOP-QURU20H1"
+	OSRelease=" Personal"
+	OSVersion=" (Build 22621)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="14"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="39307"
+	TotalPhysicalMemory="20330"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2112"
+	>
+	<Testing>
+		<StartDateTime>Feb 16 15:23 Malay Peninsula Standard Time</StartDateTime>
+		<StartTestTime>1708068233</StartTestTime>
+		<TestList/>
+		<EndDateTime>Feb 16 15:23 Malay Peninsula Standard Time</EndDateTime>
+		<EndTestTime>1708068233</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

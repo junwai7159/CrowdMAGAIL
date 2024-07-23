@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libRVO.a CMakeFiles/RVO.dir/Agent.cpp.obj CMakeFiles/RVO.dir/KdTree.cpp.obj CMakeFiles/RVO.dir/Obstacle.cpp.obj CMakeFiles/RVO.dir/RVOSimulator.cpp.obj
+C:\MinGW\bin\ranlib.exe libRVO.a
