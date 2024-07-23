@@ -75,7 +75,7 @@ python visualize_carla.py
 
 ## Demonstrations
 ### GC Dataset
-#### The performance evaluation results on the GC dataset:
+#### The performance evaluation results on the GC dataset
 | Model | Speed | Displacement | Energy | Steer |
 | --- | --- | --- | --- | --- |
 | SFM | 0.1925 | 0.0367 | 5.2030 | 9.2633 |
@@ -86,16 +86,10 @@ python visualize_carla.py
 #### Simulation Results
 | Ground Truth | SFM | ORCA | TEC-RL | Ours (CrowdMAGAIL) |
 | --- | --- | --- | --- | --- |
-| ![image](https://github.com/user-attachments/assets/60d62e18-0ac9-49ca-868f-ed2c945f4e5c) | ![image](https://github.com/user-attachments/assets/93ddf966-4074-42f0-a3c9-644662f05d4d) | ![image](https://github.com/user-attachments/assets/e3f1a29c-1254-463c-8fc6-8628fbd49cd1) | ![image](https://github.com/user-attachments/assets/615da3f2-c995-4ecb-a09b-8059575c2e4d) | ![image](https://github.com/user-attachments/assets/644ebd51-376f-4a78-8b01-a5885b17a72b) |
-
-
-
-
-
-
+| <img src="./result/GC/gif/real.gif" width="175"> | <img src="./result/GC/gif/imit_SFM_baseline.gif" width="175"> | <img src="./result/GC/gif/imit_ORCA_baseline.gif" width="175"> | <img src="./result/GC/gif/imit_TECRL_baseline.gif" width="175"> | <img src="./result/GC/gif/imit_MAGAIL_baseline.gif" width="175"> |
 
 ### UCY Dataset
-#### The performance evaluation results on the UCY dataset:
+#### The performance evaluation results on the UCY dataset
 | Model | Speed | Displacement | Energy | Steer |
 | --- | --- | --- | --- | --- |
 | SFM | 0.3298 | 0.0361 | 7.4533 | 13.0801 |
@@ -103,4 +97,12 @@ python visualize_carla.py
 | TEC-RL | 0.7009 | 0.0589 | 13.7119 | 22.2390 | 
 | **Ours (CrowdMAGAIL)** | **0.1352** | **0.0290** | **6.4286** | **12.1801** |
 
+#### Simulation Results
+| Ground Truth | SFM | ORCA | TEC-RL | Ours (CrowdMAGAIL) |
+| --- | --- | --- | --- | --- |
+| <img src="./result/UCY/gif/real.gif" width="175"> | <img src="./result/UCY/gif/imit_SFM_baseline.gif" width="175"> | <img src="./result/UCY/gif/imit_ORCA_baseline.gif" width="175"> | <img src="./result/UCY/gif/imit_TECRL_baseline.gif" width="175"> | <img src="./result/UCY/gif/imit_MAGAIL_baseline.gif" width="175"> |
 
+### CARLA Simulator
+| Circle | Corridor | Crossing | Random |
+| --- | --- | --- | --- |
+| | | |
