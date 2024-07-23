@@ -74,8 +74,6 @@ python visualize_carla.py
 ```
 
 ## Demonstrations
-<<<<<<< HEAD
-=======
 ### GC Dataset
 #### The performance evaluation results on the GC dataset
 | Model | Speed | Displacement | Energy | Steer |
@@ -107,5 +105,4 @@ python visualize_carla.py
 ### CARLA Simulator
 | Circle | Corridor | Crossing | Random |
 | --- | --- | --- | --- |
-| | | |
->>>>>>> 7cfe61c1fed15df66737984a5884a6f030464a96
+| <img src="./result/Carla/circle.gif" width="175"> | <img src="./result/Carla/corridor.gif" width="175"> | <img src="./result/Carla/crossing.gif" width="175"> | <img src="./result/Carla/random.gif" width="175"> |
