@@ -1,6 +1,14 @@
 ## About this project
+Crowd simulation holds significant practical implications in fields such as urban planning and entertainment. Simulating realistic virtual crowds is a challenging yet crucial task for various applications. Microscopic crowd simulation, particularly modeling the obstacle avoidance behavior of pedestrians is one of the most complex aspects in crowd simulation. The process which pedestrians to avoid obstacles, both static and dynamic is pivotal for achieving realistic crowd simulation. Inspired by the recent advances in deep multi-agent reinforcement learning, in this paper we propose Crowd-MAGAIL, a data-driven microscopic crowd simulation model based on the MAPPO backbone algorithm. 
 
 ## Features
+- **Feature extraction** module, which extracts key intrinsic and extrinsic features of pedestrians from their local observations.
+- **Decision** module, responsible for sampling the deciding the actions of all pedestrians using GMM.
+- **Attention module** models pedestrian interactions with other pedestrians or obstacles.
+- Data-driven **GAIL reward** based on the GC and UCY pedestrian trajectory dataset where MAPPO-Clip and W-GAN serves as the generator and discriminator respectively.
+
+The overall model architecture is CTDE-based, i.e. Centrailized Training Decentralized Execution:
+<img src="https://github.com/user-attachments/assets/ab117d51-ffc8-4f57-a8db-5a7d9dab6875" width="700">
 
 ## Getting Started
 #### Create and activate new conda environment
@@ -66,3 +74,33 @@ python visualize_carla.py
 ```
 
 ## Demonstrations
+### GC Dataset
+#### The performance evaluation results on the GC dataset:
+| Model | Speed | Displacement | Energy | Steer |
+| --- | --- | --- | --- | --- |
+| SFM | 0.1925 | 0.0367 | 5.2030 | 9.2633 |
+| ORCA | 0.6064 | 0.0562 | 6.7761 | 10.1153 | 
+| TEC-RL | 1.0115 | 0.0701 | 15.347 | 22.5168 | 
+| **Ours (CrowdMAGAIL)** | **0.0843** | **0.0280** | **4.3936** | **8.3659** |
+
+#### Simulation Results
+| Ground Truth | SFM | ORCA | TEC-RL | Ours (CrowdMAGAIL) |
+| --- | --- | --- | --- | --- |
+| ![image](https://github.com/user-attachments/assets/60d62e18-0ac9-49ca-868f-ed2c945f4e5c) | ![image](https://github.com/user-attachments/assets/93ddf966-4074-42f0-a3c9-644662f05d4d) | ![image](https://github.com/user-attachments/assets/e3f1a29c-1254-463c-8fc6-8628fbd49cd1) | ![image](https://github.com/user-attachments/assets/615da3f2-c995-4ecb-a09b-8059575c2e4d) | ![image](https://github.com/user-attachments/assets/644ebd51-376f-4a78-8b01-a5885b17a72b) |
+
+
+
+
+
+
+
+### UCY Dataset
+#### The performance evaluation results on the UCY dataset:
+| Model | Speed | Displacement | Energy | Steer |
+| --- | --- | --- | --- | --- |
+| SFM | 0.3298 | 0.0361 | 7.4533 | 13.0801 |
+| ORCA | 0.5200 | 0.0486 | 8.4792 | 13.5397 | 
+| TEC-RL | 0.7009 | 0.0589 | 13.7119 | 22.2390 | 
+| **Ours (CrowdMAGAIL)** | **0.1352** | **0.0290** | **6.4286** | **12.1801** |
+
+
