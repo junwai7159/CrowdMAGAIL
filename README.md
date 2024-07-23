@@ -105,4 +105,4 @@ python visualize_carla.py
 ### CARLA Simulator
 | Circle | Corridor | Crossing | Random |
 | --- | --- | --- | --- |
-| <img src="./result/Carla/circle.gif" width="200"> | <img src="./result/Carla/corridor.gif" width="200"> | <img src="./result/Carla/crossing.gif" width="200"> | <img src="./result/Carla/random.gif" width="200"> |
+| <img src="./result/Carla/circle.gif" width="300"> | <img src="./result/Carla/corridor.gif" width="300"> | <img src="./result/Carla/crossing.gif" width="300"> | <img src="./result/Carla/random.gif" width="300"> |
