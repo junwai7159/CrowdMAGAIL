@@ -74,3 +74,38 @@ python visualize_carla.py
 ```
 
 ## Demonstrations
+<<<<<<< HEAD
+=======
+### GC Dataset
+#### The performance evaluation results on the GC dataset
+| Model | Speed | Displacement | Energy | Steer |
+| --- | --- | --- | --- | --- |
+| SFM | 0.1925 | 0.0367 | 5.2030 | 9.2633 |
+| ORCA | 0.6064 | 0.0562 | 6.7761 | 10.1153 | 
+| TEC-RL | 1.0115 | 0.0701 | 15.347 | 22.5168 | 
+| **Ours (CrowdMAGAIL)** | **0.0843** | **0.0280** | **4.3936** | **8.3659** |
+
+#### Simulation Results
+| Ground Truth | SFM | ORCA | TEC-RL | Ours (CrowdMAGAIL) |
+| --- | --- | --- | --- | --- |
+| <img src="./result/GC/gif/real.gif" width="175"> | <img src="./result/GC/gif/imit_SFM_baseline.gif" width="175"> | <img src="./result/GC/gif/imit_ORCA_baseline.gif" width="175"> | <img src="./result/GC/gif/imit_TECRL_baseline.gif" width="175"> | <img src="./result/GC/gif/imit_MAGAIL_baseline.gif" width="175"> |
+
+### UCY Dataset
+#### The performance evaluation results on the UCY dataset
+| Model | Speed | Displacement | Energy | Steer |
+| --- | --- | --- | --- | --- |
+| SFM | 0.3298 | 0.0361 | 7.4533 | 13.0801 |
+| ORCA | 0.5200 | 0.0486 | 8.4792 | 13.5397 | 
+| TEC-RL | 0.7009 | 0.0589 | 13.7119 | 22.2390 | 
+| **Ours (CrowdMAGAIL)** | **0.1352** | **0.0290** | **6.4286** | **12.1801** |
+
+#### Simulation Results
+| Ground Truth | SFM | ORCA | TEC-RL | Ours (CrowdMAGAIL) |
+| --- | --- | --- | --- | --- |
+| <img src="./result/UCY/gif/real.gif" width="175"> | <img src="./result/UCY/gif/imit_SFM_baseline.gif" width="175"> | <img src="./result/UCY/gif/imit_ORCA_baseline.gif" width="175"> | <img src="./result/UCY/gif/imit_TECRL_baseline.gif" width="175"> | <img src="./result/UCY/gif/imit_MAGAIL_baseline.gif" width="175"> |
+
+### CARLA Simulator
+| Circle | Corridor | Crossing | Random |
+| --- | --- | --- | --- |
+| | | |
+>>>>>>> 7cfe61c1fed15df66737984a5884a6f030464a96
